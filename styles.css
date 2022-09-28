@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300&family=Poppins:ital,wght@1,300&display=swap');
-
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +14,7 @@ main {
 
 body {
     font-family: sans-serif;
-    background-color: black;
+    background-color: rgb(236, 231, 231);
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,9 +22,9 @@ body {
 
 header {
 
-    background-color: rgb(219, 206, 206);
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
@@ -52,6 +51,7 @@ header div a {
 }
 
 #main-image {
+    border: 5px solid black;
     background-image: url(https://secure.img1-cg.wfcdn.com/im/44236175/resize-h445%5Ecompr-r85/1085/108543695/Westport+33%2527+L+x+20.5%2522+W+Wallpaper+Roll.jpg);
     height: 100px;
     background-size: cover;
@@ -63,16 +63,21 @@ header div a {
 }
 
 #bottom-right {
-    background-color: rgb(219, 206, 206);
+    border: 5px solid black;
+    background-color: cornflowerblue;
     width: 200px;
+
 
 }
 
 #about-me {
+    border: 5px solid black;
+    color: white;
+    background-color: crimson;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(219, 206, 206);
     padding: 10px;
-    flex: 1;
+    margin: 10px;
+    flex: 2;
     flex-direction: row;
     justify-content: space-around;
     display: flex;
@@ -80,21 +85,55 @@ header div a {
 }
 
 #work {
-    background-color: rgb(219, 206, 206);
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-flow: column;
+    border: 5px solid black;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-around;
     display: flex;
-    flex: 1;
+    flex: 5;
 }
 
-#work-content {}
+#work-content {
+    border: 5px solid black;
+    color: white;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-basis: 10%;
 
-#second-row {}
+}
 
-#third-row {}
+#second-row {
+
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-basis: 10%;
+}
+
+#third-row {
+
+    width: 300px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-basis: 10%;
+}
 
 #contact {
+    border: 5px solid black;
+    width: 300px;
+    color: white;
+    background-color: darkmagenta;
     flex: 1;
     display: flex;
+    justify-content: flex-s;
+    align-items: flex-start flex-basis: 10%;
+
 }
