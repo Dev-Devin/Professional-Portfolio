@@ -146,13 +146,15 @@ header div a {
 }
 
 #contact {
+    margin: 20px;
     border: 5px solid black;
     width: 300px;
     color: white;
-    background-color: darkmagenta;
+    background-color: rgb(187, 179, 63);
     flex: 1;
     display: flex;
     justify-content: flex-s;
-    align-items: flex-start flex-basis: 10%;
+    flex-direction: column;
+    align-items: center;
 
 }
