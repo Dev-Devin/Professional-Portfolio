@@ -78,31 +78,48 @@ header div a {
     padding: 10px;
     margin: 10px;
     flex: 2;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     display: flex;
+    height: 50vh;
+    align-items: stretch;
 
 }
 
 #work {
+
     border: 5px solid black;
     color: white;
     background-color: cornflowerblue;
     padding: 20px;
     margin: 20px;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     display: flex;
     flex: 5;
+    align-items: stretch;
+    height: 50vh;
+
 }
 
 #work-content {
+
     border: 5px solid black;
     color: white;
     background-color: darkgreen;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    flex-basis: 10%;
+
+}
+
+#first-row {
+    border: 3px;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-basis: 10%;
 
 }
